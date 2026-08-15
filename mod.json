@@ -1,14 +1,14 @@
 {
-    "geode": "3.8.3",
-    "id": "sk.gdmod.ragemenu",
+    "geode": "v5.9.0",
+    "id": "matuskocis.rage_mod",
     "version": "1.0.0",
-    "name": "Rage Menu",
-    "developer": "GD Developer",
-    "description": "Jednoduchý Geometry Dash mód s vlastným menu.",
+    "name": "Rage Mód",
+    "developer": "matuskocis0000-del",
+    "description": "Vlastný Geometry Dash mód vytvorený pomocou Geode v5.",
     "resources": {
         "sprites": [
             "logo.png",
-            "resources/rage-menu.png"
+            "rage-menu.png"
         ]
     }
 }
