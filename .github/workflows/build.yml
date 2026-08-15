@@ -22,6 +22,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Setup Geode CLI & SDK
+      uses: geode-sdk/setup-geode@main
+      with:
+        version: v5.9.0
+
     - name: Build Mod
       uses: geode-sdk/build-geode-mod@main
       with:
